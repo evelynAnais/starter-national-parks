@@ -118,6 +118,17 @@ main {
   font-size: 1.2rem;
 }
 
+.sorter a {
+  width: 90%;
+  margin: 0 auto;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.sorter a:visited {
+  color:rgb(255, 255, 255)
+}
+
 @media screen and (min-width: 600px) {
   main {
     grid-template-columns: repeat(2, 1fr);
